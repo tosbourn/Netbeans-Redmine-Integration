@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="OptionsDialog">
+        <folder name="Advanced">
+            <file name="org-redmine-netbeansRedmineIntegration-RedmineOptionsPanelController.instance">
+                <!--org.redmine.netbeansRedmineIntegration.RedmineOptionsPanelController-->
+                <attr
+                    methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory" name="instanceCreate"/>
+                <attr name="controller" newvalue="org.redmine.netbeansRedmineIntegration.RedmineOptionsPanelController"/>
+                <attr
+                    bundlevalue="org.redmine.netbeansRedmineIntegration.Bundle#AdvancedOption_DisplayName_Redmine" name="displayName"/>
+                <attr
+                    bundlevalue="org.redmine.netbeansRedmineIntegration.Bundle#AdvancedOption_Keywords_Redmine" name="keywords"/>
+                <attr name="keywordsCategory" stringvalue="Advanced/Redmine"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.redmine.netbeansRedmineIntegration">
+    <module_version install_time="1299540824756" last="true" origin="installer" specification_version="1.0">
+        <file crc="725085402" name="config/Modules/org-redmine-netbeansRedmineIntegration.xml"/>
+        <file crc="393193656" name="modules/ext/castor-1.3.1-core.jar"/>
+        <file crc="2702953857" name="modules/ext/castor-1.3.1-xml.jar"/>
+        <file crc="1856893722" name="modules/ext/commons-codec-1.3.jar"/>
+        <file crc="2200871701" name="modules/ext/commons-logging-1.1.1.jar"/>
+        <file crc="2449046033" name="modules/ext/httpclient-4.0.1.jar"/>
+        <file crc="145561483" name="modules/ext/httpcore-4.0.1.jar"/>
+        <file crc="1066366685" name="modules/ext/redmine-api-1.0.6.qualifier.jar"/>
+        <file crc="3256882185" name="modules/org-redmine-netbeansRedmineIntegration.jar"/>
+    </module_version>
+</module>

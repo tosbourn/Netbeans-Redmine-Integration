@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CssPreviewTCWsmode">
+        <attr name="WinSys-TCRef-Order" stringvalue="CssPreviewTC"/>
+    </fileobject>
+    <fileobject name="bottomSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue=""/>
+    </fileobject>
+    <fileobject name="code_evaluator">
+        <attr name="WinSys-TCRef-Order" stringvalue="evaluator"/>
+    </fileobject>
+    <fileobject name="commonpalette">
+        <attr name="WinSys-TCRef-Order" stringvalue="CommonPalette"/>
+    </fileobject>
+    <fileobject name="editor">
+        <attr name="WinSys-TCRef-Order" stringvalue="CoverageReportTopComponent/QueryTopComponent/dbgInstances"/>
+    </fileobject>
+    <fileobject name="explorer">
+        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/projectTab_tc/favorites/services/debugging/profiler_cp"/>
+    </fileobject>
+    <fileobject name="leftSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue=""/>
+    </fileobject>
+    <fileobject name="navigator">
+        <attr name="WinSys-TCRef-Order" stringvalue="navigatorTC"/>
+    </fileobject>
+    <fileobject name="output">
+        <attr name="WinSys-TCRef-Order" stringvalue="watchesView/localsView/resultsView/callstackView/breakpointsView/classes/sources/sessionsView/threadsView/profiler_to/profiler_pp/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/CallHierarchyTopComponent/AnalyzerTopComponent/DeclarationTopComponent/JavadocTopComponent/StyleBuilderTC/TerminalContainerTopComponent/output/TaskListTopComponent"/>
+    </fileobject>
+    <fileobject name="properties">
+        <attr name="WinSys-TCRef-Order" stringvalue="AnalyzeStackTopComponent/properties"/>
+    </fileobject>
+    <fileobject name="rightSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue=""/>
+    </fileobject>
+</attributes>
