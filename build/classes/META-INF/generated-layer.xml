@@ -4,16 +4,16 @@
 <filesystem>
     <folder name="OptionsDialog">
         <folder name="Advanced">
-            <file name="org-redmine-netbeansRedmineIntegration-RedmineOptionsPanelController.instance">
-                <!--org.redmine.netbeansRedmineIntegration.RedmineOptionsPanelController-->
+            <file name="org-redmine-netbeansRedmineIntegration-RedmineIntegrationOptionsPanelController.instance">
+                <!--org.redmine.netbeansRedmineIntegration.RedmineIntegrationOptionsPanelController-->
                 <attr
                     methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory" name="instanceCreate"/>
-                <attr name="controller" newvalue="org.redmine.netbeansRedmineIntegration.RedmineOptionsPanelController"/>
+                <attr name="controller" newvalue="org.redmine.netbeansRedmineIntegration.RedmineIntegrationOptionsPanelController"/>
                 <attr
-                    bundlevalue="org.redmine.netbeansRedmineIntegration.Bundle#AdvancedOption_DisplayName_Redmine" name="displayName"/>
+                    bundlevalue="org.redmine.netbeansRedmineIntegration.Bundle#AdvancedOption_DisplayName_RedmineIntegration" name="displayName"/>
                 <attr
-                    bundlevalue="org.redmine.netbeansRedmineIntegration.Bundle#AdvancedOption_Keywords_Redmine" name="keywords"/>
-                <attr name="keywordsCategory" stringvalue="Advanced/Redmine"/>
+                    bundlevalue="org.redmine.netbeansRedmineIntegration.Bundle#AdvancedOption_Keywords_RedmineIntegration" name="keywords"/>
+                <attr name="keywordsCategory" stringvalue="Advanced/RedmineIntegration"/>
             </file>
         </folder>
     </folder>

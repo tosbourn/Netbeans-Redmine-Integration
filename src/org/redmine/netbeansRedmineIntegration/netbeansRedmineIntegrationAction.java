@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
+import org.openide.util.NbPreferences;
 import org.redmine.ta.RedmineManager;
 import org.redmine.ta.beans.Issue;
 
@@ -11,10 +12,9 @@ public final class netbeansRedmineIntegrationAction implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        String redmineHost = "http://portal.teamSolutionz.com:3000";
-        String apiAccessKey = "b27e5c87857181e5ed5e5b1fc180c336cf20e292";
+        String redmineHost = NbPreferences.forModule(RedmineIntegrationPanel.class).get("redmineURL", "");
+        String apiAccessKey = NbPreferences.forModule(RedmineIntegrationPanel.class).get("redmineAPI", "");
         RedmineManager mgr = new RedmineManager(redmineHost, apiAccessKey);
-        Integer queryId = null;
 
         NotifyDescriptor.InputLine question;
         question = new NotifyDescriptor.InputLine("Project Code:",
@@ -49,6 +49,5 @@ public final class netbeansRedmineIntegrationAction implements ActionListener {
                 DialogDisplayer.getDefault().notify(d);
             }
         }
-
     }
 }

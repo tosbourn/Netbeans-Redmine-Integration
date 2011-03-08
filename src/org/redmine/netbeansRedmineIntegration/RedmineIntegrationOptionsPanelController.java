@@ -12,12 +12,12 @@ import org.openide.util.HelpCtx;
 import org.openide.util.Lookup;
 
 @OptionsPanelController.SubRegistration(location = "Advanced",
-displayName = "#AdvancedOption_DisplayName_Redmine",
-keywords = "#AdvancedOption_Keywords_Redmine",
-keywordsCategory = "Advanced/Redmine")
-public final class RedmineOptionsPanelController extends OptionsPanelController {
+displayName = "#AdvancedOption_DisplayName_RedmineIntegration",
+keywords = "#AdvancedOption_Keywords_RedmineIntegration",
+keywordsCategory = "Advanced/RedmineIntegration")
+public final class RedmineIntegrationOptionsPanelController extends OptionsPanelController {
 
-    private RedminePanel panel;
+    private RedmineIntegrationPanel panel;
     private final PropertyChangeSupport pcs = new PropertyChangeSupport(this);
     private boolean changed;
 
@@ -59,9 +59,9 @@ public final class RedmineOptionsPanelController extends OptionsPanelController 
         pcs.removePropertyChangeListener(l);
     }
 
-    private RedminePanel getPanel() {
+    private RedmineIntegrationPanel getPanel() {
         if (panel == null) {
-            panel = new RedminePanel(this);
+            panel = new RedmineIntegrationPanel(this);
         }
         return panel;
     }

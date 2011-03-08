@@ -12,6 +12,11 @@
             </file>
         </folder>
     </folder>
+    <folder name="OptionsDialog">
+        <folder name="Advanced">
+            <file name="org-redmine-netbeansRedmineIntegration-RedmineOptionsPanelController.instance_hidden"/>
+        </folder>
+    </folder>
     <folder name="Toolbars">
         <folder name="File">
             <file name="org-redmine-netbeansRedmineIntegration-netbeansRedmineIntegrationAction.shadow">
